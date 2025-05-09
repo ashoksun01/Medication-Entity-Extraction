@@ -1,5 +1,3 @@
-# Medication-Entity-Extraction
-
 # Medication Entity Extraction Using Transformer Models and Mistral-7B
 
 ## Project Summary
