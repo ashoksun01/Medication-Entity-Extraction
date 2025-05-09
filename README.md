@@ -13,6 +13,22 @@ This project focuses on extracting medication-related entities from clinical tex
 
 ## Repository Structure
 
+- **`Mistral_7B_Notebooks/`**: Notebooks for Mistral-7B model experimentation
+  - **`EvaluationMistral.ipynb`**: Evaluation of Mistral-7B model performance.
+  - **`mistral7b_preprocessing.ipynb`**: Data preprocessing specific to Mistral-7B.
+  - **`mistral_7b_few_shot.ipynb`**: Few-shot learning setup for Mistral-7B.
+  - **`mistral_7b_finetuned_few_shot.ipynb`**: Fine-tuned few-shot learning for Mistral-7B.
+  - **`mistral_7b_zero_shot.ipynb`**: Zero-shot learning setup for Mistral-7B.
+- **`Transformer_Model_Notebooks/`**: Notebooks for transformer model experiments
+  - **`BERTbasecased_final.ipynb`**: BERT base-cased model for NER.
+  - **`BERTbasecased_longersentences.ipynb`**: BERT with longer sentence handling.
+  - **`BertBaseCase_basemodel.ipynb`**: Base model for BERT-based NER.
+  - **`EvalModels.ipynb`**: Evaluation of all transformer models.
+  - **`MicrosoftBBB.ipynb`**: Microsoft BiomedBERT model.
+  - **`clinical_longformer3.ipynb`**: Clinical LongFormer model for long texts.
+- **`medication_NER_paper.pdf`**: Research paper detailing the project’s objective, data pre-processing, model development, validation, and evaluation.
+- **`medication_NER_slides.pdf`**: Presentation slides summarizing the project.
+
 ---
 
 ## How It Works
